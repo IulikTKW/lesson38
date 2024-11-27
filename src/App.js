@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import Counter from "./Counter";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Counter />      
     </div>
   );
 }
 
 export default App;
+
+
+//1. de create o forma
+//2. buttonul submit din forma seteaza statu de reducer
+//3. obiectul din reducer trebuie sa aiba cate o cheie pentru fiecare input din forma
+//4. dupa submit, afisam pe pagina datele
